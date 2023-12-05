@@ -1,0 +1,252 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin: 0 auto;
+    width: 70%;
+}
+body{
+    border-bottom: 8px solid green;
+    font-family: sans-serif;
+}
+
+    
+
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.nofloat h1{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 25px;    
+}
+.nofloat p{
+    padding-bottom: 25px; 
+    line-height: 1.7; 
+    word-spacing: 2px;
+}
+.nofloat button{
+    text-transform: uppercase;
+    background-color:green;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+}
+header img{
+    width: 400px;
+    border-radius: 13px;
+}
+.nofloat{
+    width: 45%;
+    padding: 15px;
+}
+/* makes our chairs */
+.science img{
+    transform: scaleY(-1);
+}
+.green img{
+    width: 200px;
+    border-radius: 13px;
+}
+.green{
+    background-color: green;
+    padding: 20px;
+    color: white;
+    border-radius: 13px;
+    display: flex;
+}
+.without{
+    margin: 15px 15px 15px 50px;
+}
+.without h3, .without p{
+    margin-bottom: 15px;
+}
+.without pre{
+    border-top: 2px solid rgb(195, 185, 185);
+    line-height: 1px;
+    top: 5px;
+    position: relative;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Tajawal', sans-serif;
+    opacity: .6;
+}
+.without pre span{
+    position: relative;
+    left: 15px;
+    background-color: green;
+    padding: 5px;
+}
+.make, .bestselling{
+    padding: 40px;
+}
+.sme{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 60px ;
+}
+.science,.maximal,.ethical{
+    width: 30%;
+}
+.sme h4{
+    padding: 12px 0;
+}
+.sme p, .without p{
+    line-height:1.7 ;
+}
+.sme p, .nofloat p{
+    color: #444;
+}
+.without p{
+    line-height:1.7 ;
+    font-style: italic;
+    opacity: .9;
+}
+/* start bestselling */
+.bestselling img{
+    width: 230px;
+    
+}
+.lws{
+    display: flex;
+    justify-content: space-between;
+}
+.laid, .worker, .sofa{
+    border-radius: 13px;
+    box-shadow: 0 0 10px black;
+    padding-bottom: 20px;
+    overflow: hidden;
+   
+}
+
+.span, .span, .span{
+   font-weight: bold;
+   position: relative;
+   left: 20px;
+   top: 2px;
+}
+.laid h4, .worker h4, .sofa h4{
+   padding:35px 20px 20px ;
+}
+.laid button, .worker button, .sofa button{
+   position: relative;
+   left: 35px;
+}
+.laid button, .worker button, .sofa button{
+   border: none;
+   background-color:green;
+   color: white;
+   padding:7px 10px ;
+   margin: 10px ;
+   border-radius: 20px;
+}
+.bestselling h1{
+    padding-bottom: 30px;
+}
+.bestselling p{
+    color: #444;
+}
+.a, .b, .c{
+    margin: 0 8px 20px 20px;
+}
+.a p, .b p, .c p{
+    padding-bottom: 7px;
+}
+.a p:nth-of-type(2n), .b p:nth-of-type(2n), .c p:nth-of-type(2n){
+    position: relative;
+    right: 2px;
+}
+.meh{
+    position: relative;
+    bottom: 7px;
+    left: 12px;
+}
+.mox{
+    position: relative;
+    bottom: 7px;
+    left: 8px;
+}
+.mox1{
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+}
+/* start footer */
+footer{
+    padding: 30px 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .body{
+        width: 100%;
+    }
+   /* header */
+    header{
+        display: block;
+        padding: 10px;
+    }
+    .nofloat{
+        width: 90vw;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    header img{
+        width: 370px;
+    }
+/* makes our chairs */
+    .make h1, .bestselling h1{
+      width: 80vw;
+    }
+    .sme{
+        display: block;
+        padding: 0 18px;
+    }
+    .science,.maximal,.ethical{
+        width: 90vw;
+        margin-bottom: 15px;
+    }
+    .green{
+        display: block;
+    }
+    .green img{
+        width: 100%;
+    }
+    .without{
+        margin: 25px 0px;
+    }
+    /* start bestselling */
+    .lws{
+        display: block;
+        
+    }
+    .laid, .worker, .sofa{
+        width: 260px;
+        margin: 0 auto 40px;
+    }
+    .bestselling img{
+        width: 260px;
+    }
+    .make, .bestselling{
+        padding: 20px;
+    }
+    .span, .span, .span{ 
+        left: 39px;
+     }
+     .laid button, .worker button, .sofa button{
+        left: 60px;
+     }
+    /* footer */
+    footer{
+        padding: 0 50px 15px;
+    }
+  }
